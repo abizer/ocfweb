@@ -10,13 +10,19 @@ MIRRORS_EPOCH = date(2017, 1, 1)
 
 
 def stats_mirrors(request):
+
+    sem = bandwidth_semester()
+    total = bandwidth_all_time()
+
     return render(
         request,
         'stats/mirrors.html',
         {
             'title': 'Mirrors Statistics',
-            'bandwidth_semester': bandwidth_semester(),
-            'bandwidth_all_time': bandwidth_all_time(),
+            'bandwidth_semester': sem,
+            'bandwidth_semester_sum': sum(b[1] for b in sem),
+            'bandwidth_all_time': total,
+            'bandwidth_all_time_sum': sum(b[1] for b in total),
             'start_date': current_semester_start,
         },
     )
