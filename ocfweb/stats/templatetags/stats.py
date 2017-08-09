@@ -28,3 +28,12 @@ def stats_navbar(context):
             ]
         ],
     }
+
+
+@register.filter
+def humanize_size(value):
+    # adapted from jvperrin/upload-to-box
+    for unit in ['', 'KB', 'MB', 'GB', 'TB', 'PB']:
+        if value < 1024.0:
+            return '{:3.2f} {}'.format(value, unit)
+        value /= 1024.0
