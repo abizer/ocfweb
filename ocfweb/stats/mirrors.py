@@ -38,11 +38,11 @@ def _bandwidth_by_dist(start):
     return [(i['dist'], float(i['bandwidth'])) for i in c]
 
 
-@periodic(86400)
+@periodic(43200)
 def bandwidth_semester():
     return _bandwidth_by_dist(current_semester_start())
 
 
-@periodic(86400)
+@periodic(43200)
 def bandwidth_all_time():
     return _bandwidth_by_dist(MIRRORS_EPOCH)
