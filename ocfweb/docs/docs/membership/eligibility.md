@@ -12,9 +12,10 @@ documentation:
 
 ## Individuals
 
-### UC Berkeley students, faculty, staff, postdocs, visiting scholars, etc.
+### UC Berkeley students, faculty, staff, postdocs, visiting scholars, alumni, etc.
 
 * Current Cal ID
+* Proof of previous enrollment or employment at UC Berkeley
 
 ### Lawrence Berkeley National Laboratory (LBNL) staff
 
@@ -96,4 +97,6 @@ with the campus (e.g. Richmond Field Station))
 Each individual and each group is entitled to one account. Requests for
 additional accounts must demonstrate a unique need for having additional
 accounts and be approved by an OCF General Manager, Site Manager, Deputy
-General Manager or Deputy Site Manager in writing.
+General Manager or Deputy Site Manager in writing. Requests for accounts
+by entities not matching any of the aforementioned criteria may be granted
+at the discretion of an OCF Site Manager or the Board of Directors.
